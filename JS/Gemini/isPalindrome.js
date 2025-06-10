@@ -1,12 +1,19 @@
-function isPalindrome(ref, str) {
-    const refStr = ref.toLowerCase().split("").reverse().join("");
+function isPalindrome(str) {
+  
+  const lwStr = str.toLowerCase();
+  const revStr = lwStr.split("").reverse().join("");
+  
+  // console.log(str);
+  // console.log(revStr);
 
-    if (ref === str.toLowerCase()) {
-        return true;
+
+    if (lwStr === revStr) {
+      //console.log(true);
+      return true;
     } else {
-        return false;
+      //console.log(false);
+      return false;
     }
 }
 
-const str1 = "home";
-const str2 = "racecar";
+console.log (isPalindrome("anna"));
