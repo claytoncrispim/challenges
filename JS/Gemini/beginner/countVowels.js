@@ -11,4 +11,4 @@ function countVowels(str){
     return vowelCount;
 }
 
-console.log(countVowels("Gran Canaria"));
+console.log(countVowels("Gran Canaria")); // Output: 5
